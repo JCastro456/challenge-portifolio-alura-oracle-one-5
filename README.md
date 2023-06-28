@@ -1,6 +1,10 @@
 # Challenge ONE | Front End - Portfólio
 ---
 
+Nesse desafio aprendi a estilizar melhor minhas paginas, criar formularios com validação e enviá-los por email com resposta também ao solicitante. Apliquei alguns efeitos de sombra, cor e transição em alguns elementos da página.
+
+Para acessar o meu Portifólio clique aqui : https://jcastro456.github.io/challenge-portifolio-alura-oracle-one-5/
+
 <p align="center" >
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168887837-b6d26532-6782-48dc-92eb-e48bf6c57a15.png">
 </p>
@@ -55,3 +59,4 @@ Vá na aba "Sobre" ou "About" do seu projeto no menu lateral que fica na esquerd
 
  <a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
 <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
