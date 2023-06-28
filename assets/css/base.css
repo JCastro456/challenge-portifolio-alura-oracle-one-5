@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+:root{
+   --cor-fonte: #464646; 
+   --cor-branco: #F5F5F5; 
+   --cor-botao: #e099ea;
+   --cor-botao1:#baa5ff;  
+
+   --raleway: 'Raleway', sans-serif;
+}
+
+body {
+    box-sizing: border-box;    
+    background-image: linear-gradient(180deg, #70b5ff 0, #86b1ff 8.33%, #99adff 16.67%, #aaa9ff 25%, #baa5ff 33.33%, #c8a1f9 41.67%, #d59df2 50%, #e099ea 58.33%, #eb96e1 66.67%, #f392d7 75%, #fa90cd 83.33%, #ff8ec2 91.67%, #ff8db7 100%);
+    color: var(--cor-fonte);
+    font-family: var(--raleway);    
+    margin: 0;
+    padding: 0;
+    width: 100vw;    
+}
+
+a{
+    color: var(--cor-fonte); 
+    text-decoration: none;       
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+  
+ol, ul, li {
+    list-style: none;  
+    margin: 0;
+    padding: 0;
+}
+  
+p {
+    margin: 0;
+    padding: 0;    
+}
+ 
+a{    
+    text-decoration: none;
+}
+  
+a:hover{
+    text-decoration: underline;
+}
+  
+input, textarea {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}  
+  
+button{
+  border: none;
+  margin: 0;
+  padding: 0;    
+}
+
+

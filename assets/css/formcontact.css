@@ -1,0 +1,221 @@
+/*mobile*/
+
+.contact__container{
+  align-items: flex-start;
+  box-sizing: border-box;    
+  display: flex;
+  flex-direction: column;  
+  padding: 2rem;
+  width: 100vw;
+}
+
+.contact__img{
+  display: none;
+}
+
+.contact__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact__title{
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.625rem;  
+}
+
+.contact__subtext{
+  font-weight: 500;
+  line-height: 1.1875rem; 
+}
+
+.contact__container--formtext{
+  display: flex;
+  flex-direction: column;  
+  gap: 2rem;  
+  height: 100%; 
+  margin-top: 55px;
+}
+
+.form__container {
+  height: 100%;
+  width: 100%; 
+}
+  
+.form__fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;   
+}
+
+.input__container{
+  box-sizing: border-box;  
+  display: flex;
+  flex-direction: column;
+  position: relative;  
+}
+
+.input__campo{
+  border: none;    
+  border-radius: 4px; 
+  box-shadow: 3px 3px var(--cor-fonte); 
+  box-sizing: border-box;  
+  cursor:text;  
+  color: var(--cor-fonte);
+  font-weight: 400;  
+  height: 3.625rem;  
+  padding-left: 0.75rem;
+}
+
+.input__campo::placeholder{
+  color: var(--cor-branco);
+  visibility: hidden;
+}
+  
+/* ação ao clicar com mouse */
+  
+.input__campo:focus{
+  border-radius: 4px;  
+  cursor:progress;
+  outline: none;
+  padding-top: 0.85rem;
+}
+  
+/* ação ao clicar no campo */
+  
+.input__campo:not(:placeholder-shown) + .input__label,
+.input__campo:focus + .input__label {
+  font-size: 0.75rem;
+  top: 0.25rem;
+  transition: all .25s;
+}
+  
+.input__campo:focus + .input__label {
+  color: var(--cor-fonte);
+}
+  
+  
+/* se preenchimento válido */
+.input__campo:valid{
+  padding-top: 0.85rem;
+}
+  
+/* se preenchimento inválido */
+.input__campo:invalid {
+  color: var(--cor-fonte);
+  padding-top: 0.85rem;
+}
+
+.input__label{
+  font-weight: 400;  
+  position: absolute;
+  left: 0.75rem;
+  top: 1.15rem;  
+  margin-bottom: 4px;    
+  transition: all .25s;
+}
+
+.input__erro{  
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: red;
+  margin-top: 5px;
+}
+
+.input__mensagem{
+  height: 8.3125rem;
+  padding-top: 1.15rem;
+}
+  
+.input__mensagem:focus{
+  padding-top: 1.5rem;
+}  
+  
+.input__mensagem:valid{
+  padding-top: 1.5rem;
+}
+  
+.input__mensagem:invalid{
+  padding-top: 1.5rem;
+}
+
+.contact__button { 
+  border: none;  
+  box-shadow: 3px 3px var(--cor-fonte); 
+  border-radius: 5px;
+  color: var(--cor-fonte); 
+  cursor: pointer;
+  font-weight: 400; 
+  gap: 10px;    
+  height: 51px;
+  line-height: 19px;    
+  padding: 16px; 
+  width: 165px;      
+}
+
+.contact__button:hover {
+  background-color: var(--cor-botao);
+}
+
+
+/* laptop */
+
+@media screen and (min-width:1024px) {
+
+    .contact__container{
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;      
+      margin: auto;
+      padding: 4rem 7rem;      
+    }  
+    
+    .contact__img{
+      border-radius: 5px;  
+      box-shadow: 3px 3px var(--cor-fonte);  
+      box-sizing: border-box;
+      display: flex;
+      margin-right: 1rem;
+      margin-top: 4rem;
+      height: 37.063rem;
+      width: 29rem; 
+    }
+        
+    .contato__container--formtext{
+      margin-top: 4rem; 
+    }
+}
+
+  
+/* desktop */
+  
+@media screen and (min-width:1440px) {
+  
+    .contact__container{
+      padding: 4rem 9.5rem;  
+      width: 100vw;        
+    } 
+    
+    .contact__img{      
+      height: 37.063rem;
+      width: 29rem;  
+    }
+
+    .input__container{
+      height: 100%;
+      max-height: 37.0625rem;
+    }
+}
+
+
+
+
+
+
+
+

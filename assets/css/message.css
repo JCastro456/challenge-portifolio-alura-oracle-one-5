@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+body {
+  background-repeat: no-repeat;
+}
+
+/*mobile*/
+
+.title__description-mensage{       
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+}
+
+.title__signature {
+  font-family: 'Tangerine', cursive; 
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+ /* tablete */
+
+@media screen and (min-width:768px){
+  .title__description-mensage{
+    padding: 2rem;  
+  }
+}
+
+
+/* laptop */
+
+@media screen and (min-width:1024px){
+
+   .title__description-mensage{
+     margin: auto;      
+     max-width: 71rem;
+     padding: 2.5rem 7rem;  
+   }
+}
+
+
+/*desktop*/
+
+@media screen and (min-width:1440px) {
+
+  .title__description-mensage{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 80rem;
+    padding: 4rem 9.5rem;      
+  }
+}  
+

@@ -1,0 +1,118 @@
+/*mobile*/
+
+.academic__container {
+    align-items: center;     
+    display: flex;
+    flex-direction: column;  
+    padding: 2rem;
+}
+
+.academic__title {
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    margin-bottom: 1rem;
+}
+
+.academic__list {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.academic__item{    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+    width: 100%;
+}
+
+.academic__logo__container{
+    align-items: center;
+    background-color: var(--cor-branco);    
+    border-radius: 5px;
+    box-shadow: 3px 3px var(--cor-fonte);
+    display: flex;
+    height: 7.375rem;
+    justify-content: space-around;  
+    margin-top: 1rem;
+}
+
+.academic__logo {
+    width: 5.25rem;    
+}
+
+.academic__text {
+    align-self: center;
+    font-weight: 700;
+    font-size: 1rem;  
+    padding-top: 0.5rem;     
+}
+
+
+/* tablete */
+
+@media screen and (min-width:768px){
+
+    .academic__list {
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    }
+
+    .academic__item{
+       width: 31.82%;
+    }
+}
+
+  
+/* laptop */
+  
+@media screen and (min-width:1024px) {
+  
+    .academic__container{
+      margin: auto;      
+      max-width: 71rem;
+      padding: 2rem 7rem;      
+    }  
+
+    .academic__logo__container{
+      align-self: center;  
+      height: 10.875rem;
+      width: 11rem;
+      
+    }  
+}
+  
+  /* desktop */
+  
+@media screen and (min-width:1440px) {
+  
+    .academic__container{       
+      max-width: 80rem;
+      padding: 5.125rem 9.5rem; 
+    }
+
+    .academic__title {
+      font-size: 2rem;
+      line-height: 2.375rem; 
+    }
+
+    .academic__item{
+      height: 17.875rem;
+      min-width: 32.3%;
+      width: 32.3%;    
+    }
+
+    .academic__logo__container{
+      align-self: center;  
+      height: 10.875rem;
+      width: 11rem;
+            
+    }  
+
+    .academic__logo {
+      width: 5.625rem;  
+    }
+}
