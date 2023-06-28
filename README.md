@@ -36,22 +36,16 @@ Para acessar o meu Portifólio clique aqui : https://jcastro456.github.io/challe
 2) Publique seu projeto no GitHub Pages: [Como publicar meus projetos com Github Pages?](https://docs.github.com/pt/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 3) Utilize o tópico:
 
-     -Turma 4: **challengeoneportfolio4**
-     
      -Turma 5: **challengeoneportfolio5**
      
 Vá na aba "Sobre" ou "About" do seu projeto no menu lateral que fica na esquerda dentro do repositório no GitHub Adicione a tag "**challengeoneportfolio4**" ou "**challengeoneportfolio5**" dependendo de qual turma você pertence.
-
-
-![gif-vitrine](https://user-images.githubusercontent.com/91544872/153601047-62aee6cb-e3cf-42b3-92c3-7130c996113f.gif)
 
 ## Como faço a entrega final do meu Projeto?
 ---
 
 4) Preencha o formulário a seguir com seus dados pessoais, juntamente com o link do seu repositório e do seu GitHub Pages.
 
-🔹 [Link para o formulário](https://lp.alura.com.br/alura-latam-entrega-challenge-one-portugues)
- ![image](https://user-images.githubusercontent.com/92184087/208179699-a9fc5b9e-c9b5-4dab-a711-43ddfbcd00d0.png)
+🔹 [Link para o formulário](https://lp.alura.com.br/alura-latam-entrega-challenge-one-portugues) 
 
 5) Vá para seu e-mail e resgate sua badge conquistada por encerrar mais um desafio no Projeto ONE! 🏆
 6) Não se esqueça de colocar um link ou vídeo de seu projeto no Linkedin! Marque com a #Oracle #AluraLatam 🏁
